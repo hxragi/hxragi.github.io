@@ -3,11 +3,11 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://chiri.the3ash.com/', // Site domain
-    title: 'CHIRI', // Site title
-    author: '3ASH', // Author name
+    website: 'https://hxragi.github.io/', // Site domain
+    title: 'NOTES', // Site title
+    author: 'hxragi', // Author name
     description: 'Minimal blog built by Astro', // Site description
-    language: 'en-US' // Default language
+    language: 'ru-RU' // Default language
   },
 
   // GENERAL SETTINGS ////////////////////////////////////////////////////////////////////////////////////
@@ -33,7 +33,7 @@ export const themeConfig: ThemeConfig = {
     toc: true, // Show table of contents (when there is enough page width)
     imageViewer: true, // Enable image viewer
     copyCode: true, // Enable copy button in code blocks
-    linkCard: true, // Enable link card
+    linkCard: false, // Enable link card
     katex: true // Enable KaTeX math rendering
   }
 }
